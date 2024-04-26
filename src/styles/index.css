@@ -1,0 +1,268 @@
+body {
+  font-family: "Inter", "sans-serif";
+}
+
+.container {
+  margin: auto;
+  max-width: 1240px;
+  padding: 20px 0;
+}
+
+.layout {
+  gap: 10px;
+  background-color: #ffffff;
+}
+
+.header {
+  display: flex;
+  justify-content: flex-end;
+  padding: 24px 100px 24px 100px;
+  background-color: white;
+}
+
+.headerLink {
+  display: flex;
+  justify-content: end;
+  gap: 64px;
+}
+
+.link {
+  font-weight: light;
+  font-size: 22px;
+  text-transform: uppercase;
+  letter-spacing: 1%;
+  color: #242323;
+  text-decoration: none;
+}
+
+.bouton {
+  display: flex;
+
+  background-color: #491e4b;
+  border-radius: 50px;
+  padding: 12px 24px 12px 24px;
+  color: white;
+  font-size: 22px;
+  gap: 24px;
+  margin-top: 9px;
+}
+
+svg {
+  margin-top: 6px;
+}
+
+.hero {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row-reverse;
+  gap: 10px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  width: 1240px;
+  height: 649px;
+  background-color: rgba(73, 30, 75, 0.1);
+  border-radius: 60px;
+  padding-top: 100px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.cardText {
+  display: flex;
+  font-weight: 900;
+  font-size: 96px;
+  color: rgba(0, 0, 0, 1);
+  text-transform: uppercase;
+  line-height: 100px;
+  margin-bottom: 24px;
+}
+
+.headline {
+  font-weight: 500;
+  font-size: 56px;
+  line-height: 64px;
+  color: rgba(0, 12, 34, 1);
+  text-transform: uppercase;
+}
+
+.homePage {
+  display: flex;
+  flex-direction: column;
+  gap: 150px;
+}
+
+.headLineButon {
+  display: flex;
+  gap: 40px;
+}
+
+.card {
+  display: flex;
+  gap: 16px;
+  cursor: pointer;
+}
+
+.produit {
+  width: 100%;
+}
+
+.produit img {
+  display: block;
+  height: 500px;
+  width: 100%;
+  object-fit: cover;
+  margin-top: 48px;
+}
+
+.produitDetails {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 16px;
+}
+
+.produitNom {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  opacity: 50%;
+}
+
+.produitDescription {
+  font-size: 24px;
+  line-height: 29.05px;
+  text-transform: uppercase;
+  color: rgba(0, 12, 34, 1);
+  font-weight: 500;
+}
+
+.price {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.titreProduit {
+  font-weight: 500;
+  font-size: 56px;
+  text-transform: uppercase;
+  line-height: 64px;
+}
+
+.BoutonPageProduit {
+  border: 1px solid;
+  padding: 16px 24px 16px 24px;
+  border-color: rgba(73, 30, 75, 0.05);
+  color: rgba(0, 12, 34, 1);
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.listeBoutonPageProduit {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  width: 100%;
+}
+
+.BoutonPageProduit:hover {
+  background-color: rgba(73, 30, 75, 1);
+  color: rgba(255, 255, 255, 1);
+}
+
+.titreBoutonProduit {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+.boutonPageProduit:hover {
+  background-color: rgba(73, 30, 75, 1);
+  color: white;
+}
+
+.listeProduit {
+  display: flex;
+}
+
+.cardListe {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  gap: 16px;
+  margin-top: -48px;
+  margin-left: 48px;
+  cursor: pointer;
+}
+
+.cardandcard {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.cardCategorie {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  cursor: pointer;
+}
+
+.imgListe {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.imgFossil {
+  width: 596px;
+  height: 397px;
+}
+
+.imgSansMarque {
+  width: 596px;
+  height: 433px;
+}
+
+.imgPhoto {
+  width: 596px;
+  height: 732px;
+}
+
+.titreDetailDescription {
+  font-size: 36px;
+  text-transform: uppercase;
+}
+
+.priceDescription {
+  font-size: 64px;
+  line-height: 42px;
+  font-weight: 500;
+  margin-top: 16px;
+}
+
+.watchDescription {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.containImgDetail {
+  display: flex;
+  gap: 48px;
+}
+
+.titreDescriptionEtDetail {
+  margin-top: 32px;
+}
+
+.note {
+  margin-top: 32px;
+}
+
+.titreetbouton {
+  display: flex;
+  margin-top: 150px;
+  gap: 40px;
+}
+
+.card {
+  display: flex;
+  gap: 16px;
+}
