@@ -41,7 +41,7 @@ export function HomePage() {
           <CardHomePage />
           <SectionProduitHomePage
             cat="mens-watches"
-            headline={"Mens Watch"}
+            headline={"Mens Watches"}
             products={listeProductsWatches}
           />
           <SectionProduitHomePage

@@ -71,16 +71,17 @@ export function DetailProduit() {
             </div>
             <div className="note">
               <p className="produitNom">Note</p>
-              <p className="detailNote">{detailsProduits.rating}</p>
+              <p className="detailNote">{detailsProduits.rating} / 5</p>
             </div>
           </div>
         </div>
-
-        <SectionProduitHomePage
-          cat={detailsProduits.category}
-          headline={detailsProduits.category}
-          products={products}
-        />
+        <div className="titreetbouton">
+          <SectionProduitHomePage
+            cat={detailsProduits.category}
+            headline={"Dans la même catégorie"}
+            products={products}
+          />
+        </div>
       </div>
     </Layout>
   );

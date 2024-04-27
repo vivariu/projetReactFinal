@@ -1,5 +1,9 @@
-export function ButtonPageProduit({ boutonPageProduit }) {
-  return <button className="BoutonPageProduit">{boutonPageProduit}</button>;
+export function ButtonPageProduit({ boutonPageProduit, onClick }) {
+  return (
+    <button className="BoutonPageProduit" onClick={onClick}>
+      {boutonPageProduit}
+    </button>
+  );
 }
 
 export default ButtonPageProduit;
